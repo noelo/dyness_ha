@@ -1,0 +1,23 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Dyness Battery Setup",
+        "description": "Enter your Dyness API credentials. Find these in the Dyness Portal under Developer Center → API Management.",
+        "data": {
+          "api_id":     "API ID",
+          "api_secret": "API Secret",
+          "sn_bms":     "Device SN (BMS) — e.g. R07E884668285328-BMS",
+          "sn_dongle":  "Dongle SN — e.g. R07E884668285328"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Cannot connect to Dyness API. Check your credentials and device SNs.",
+      "unknown": "Unexpected error. Check the Home Assistant logs."
+    },
+    "abort": {
+      "already_configured": "This Dyness device is already configured."
+    }
+  }
+}

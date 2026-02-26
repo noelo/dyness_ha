@@ -1,0 +1,11 @@
+{
+  "domain": "dyness",
+  "name": "Dyness Battery",
+  "version": "1.0.0",
+  "documentation": "https://open-api.dyness.com/swagger-ui/index.html",
+  "requirements": [],
+  "dependencies": [],
+  "codeowners": [],
+  "iot_class": "cloud_polling",
+  "config_flow": true
+}
